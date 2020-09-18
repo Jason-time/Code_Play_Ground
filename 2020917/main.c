@@ -1,7 +1,14 @@
 #include <stdio.h>
+#include <io.h>
 
 int main(void){
-    printf("Hello World");
-    getchar();
+    
+    printf("Hello World\n");
+    printf("Hello World\n");
+    printf("Hello World\n");
+    printf("Hello World\n");
+    printf("Hello World\n");
+    
+
     return 0;
 }
