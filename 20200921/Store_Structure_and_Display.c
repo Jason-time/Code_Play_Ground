@@ -1,3 +1,5 @@
+// https://www.programiz.com/c-programming/examples/information-structure-array
+
 #include <stdio.h>
 struct student {
 	char firstName[50];
@@ -18,7 +20,7 @@ int main () {
 		printf("Enter marks: ");
 		scanf("%f", &s[i].marks);
 	}
-	printf("Displaying Information:\n\n");
+	printf("\nDisplaying Information:\n\n");
 	
 	// displalying information
 	for(i=0 ; i<5; ++i){
